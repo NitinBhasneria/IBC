@@ -2,7 +2,7 @@
   "name": "ibc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nitinbhasneria.github.io/ibc",
+  "homepage": "https://nitinbhasneria.github.io/IBC",
   "dependencies": {
     "@iconify/icons-mdi": "^1.0.149",
     "@iconify/react": "^1.1.3",

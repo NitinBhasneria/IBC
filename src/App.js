@@ -11,7 +11,7 @@ function App() {
     <Router history={history} forceRefresh={true}>
       	<Navbar_Desktop />
       	<Switch>
-         	<Route exact path='/ibc/' component={contactUs}/>
+         	<Route exact path='/IBC/' component={contactUs}/>
          </Switch>
     </Router>
   );
