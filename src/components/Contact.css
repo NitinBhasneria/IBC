@@ -1,0 +1,221 @@
+.contact {
+    font-family: EB Garamond; 
+    font-size: 100px;
+}
+.offset-md-6 {
+    margin-left: 52.5%;
+}
+.arrowpad {
+    padding-right: 2rem;
+}
+.Arrows {
+    display: flex;
+    justify-content: right;
+}
+.arrow {
+    margin-top: -144px;
+    cursor: pointer;
+    height: 8px;
+}
+.carousel_head {
+    height: 50px;
+}
+.cl-grey {
+    color: #232323;
+    line-height: 33px;
+    font-family: lato;
+}
+.cl_carousel_topic {
+    color: #9D9D9C;
+    font-size: 20%;
+    font-family: lato;
+    font-weight: 400;
+    color: #9D9D9C;
+    font-family: Lato;
+    letter-spacing: 0.1em;
+}
+.border_carousel {
+    width: 100px;
+    margin-top: 12px;
+}
+.l_h {
+    line-height: 24px;
+}
+.mid {
+    font-family: EB Garamond;
+    height: 350px;
+}
+.info {
+    background-color: #F8F9FB;
+}
+.image {
+    width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+.react-multi-carousel-list {
+    height: 750px;
+}
+.left_arrow {
+    background: no-repeat;
+    border: none;
+    position: relative;
+    left: 1142px;
+    max-height: 50px;
+    overflow: hidden;
+    top: -49px;
+    width: 100px;
+}
+.ok{
+    position: absolute;
+    left: -15px;
+    /* border: 2px solid black; */
+    top: 8px;
+    z-index: 1000;
+}
+.ok2 {
+    position: absolute;
+    left: 1250px;
+    max-height: 50px;
+    width: 50px;
+    top: 12px;
+    z-index: 1000;
+    border: none;
+    background: no-repeat;
+    overflow: hidden;
+}
+.enter_email {
+    font-size: 16%;
+    font-weight: 300;
+    vertical-align: top;
+    border-radius: 0px;
+    border: none;
+}
+.info_content {
+    font-size: 18%;
+    font-family: lato;
+    font-weight: 300;
+}
+.small_content {
+    font-size: 16%;
+    font-family: lato;
+}
+.coperate {
+    font-family: EB Garamond; 
+    font-size: 48%;
+}
+.head_project {
+    font-family: EB Garamond;
+    font-size: 35%
+}
+@media screen and  (min-width: 1400px) {
+    .contain{
+        max-width: 1350px !important ;
+    }
+    .contact {
+        height: 600px;
+    }
+    .arrowpad {
+        padding-right: 2.6rem !important;
+    }
+}
+@media (max-width:1399px) {
+    .contact {
+        height: 550px;
+    }
+    .arrowpad {
+        padding-right: 2.4rem !important;
+    }
+    .left_arrow {
+        left: 930px;
+    }
+    .ok2 {
+        left: 1045px;
+    }
+    .react-multi-carousel-list {
+        height: 650px;
+    }
+} 
+@media (max-width: 1200px) {
+    .contact {
+        font-size: 85px;
+        height: 460px;
+    }
+    .arrowpad {
+        padding-right: 2rem !important;
+    }
+    .react-multi-carousel-list {
+        height: 506px;
+    }
+    .left_arrow {
+        left: 815px;
+        overflow: inherit;
+        top: -23.2px;
+    }
+    .ok2 {
+        left: 870px;
+        overflow: initial;
+        top: 24px;
+    }
+}
+@media (max-width: 992px) {
+    .contact {
+        font-size: 70px;
+        height: 330px;
+    }
+    .react-multi-carousel-list {
+        height: 480x;
+    }
+    .left_arrow {
+        left: 560px;
+        overflow: inherit;
+        top: -1.2px;
+    }
+    .ok2 {
+        left: 620px;
+        overflow: initial;
+        top: 35px;
+    }
+    .cl-grey {
+        line-height: 28px;
+    }
+    .arrowpad {
+        padding-right: 2.9rem !important;
+    }
+    .mid {
+        font-family: EB Garamond;
+        height: 255px;
+    }
+    .l_h {
+        line-height: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .react-multi-carousel-list {
+        height: 380px;
+    }
+    .contact {
+        font-size: 60px;
+        height: 237px;
+    }
+    .ok2 {
+        left: 455px;
+        overflow: initial;
+        top: 41px;
+    }
+    .mid {
+        font-family: EB Garamond;
+        height: 265px;
+    }
+    .left_arrow {
+        left: 405px;
+        overflow: inherit;
+        top: 4.8px;
+    }
+}
+@media (max-width: 576px) {
+    .contact {
+        font-size: 50px;
+        height: 237px;
+    }
+}
