@@ -1,14 +1,14 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import USA from './../static/USA.png';
-import UAE from './../static/UAE.png';
-import UK from './../static/UK.png';
-import GERMANY from './../static/GERMANY.png';
+import USA from './../../static/USA.png';
+import UAE from './../../static/UAE.png';
+import UK from './../../static/UK.png';
+import GERMANY from './../../static/GERMANY.png';
 // import Line from './../static/line.png';
 // import { Row } from 'react-bootstrap';
-import leftArrow from './../static/leftArrow.png';
-import rightArrow from './../static/rightArrow.png';
+import leftArrow from './../../static/leftArrow.png';
+import rightArrow from './../../static/rightArrow.png';
 
 const responsive = {
   superLargeDesktop: {

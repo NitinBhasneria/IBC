@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import './navbar.css';
-import ibcIcon from './../static/IBCicon.png';
+import ibcIcon from './../../static/IBCicon.png';
 import {
     BrowserRouter as Router,
     Switch,
@@ -21,11 +21,11 @@ function Navbar_Desktop() {
 				<Row className="h-25 pl-3">
 					<Col sm="auto" className="ml-xl-5 ml-lg-4 ml-md-3 pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="">BUILDING TOMMOROW’S INDIA TODAY</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="">OUR BUILDINGS</NavLink></Col>
-					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="">THE FUTURE IS NOW</NavLink></Col>
+					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="/ibc/future">THE FUTURE IS NOW</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="">THE SHERIFF FOUNDATION</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="">EXPERIENCE IBC</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink exact to="">DIVERSED PORTFOLIOS</NavLink></Col>
-					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink activeClassName="active_navbar_item" exact to="/ibc">CONTACT US</NavLink></Col>
+					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink activeClassName="active_navbar_item" exact to="/ibc/contact_us">CONTACT US</NavLink></Col>
 				</Row>
 			</Container>
 		</div>

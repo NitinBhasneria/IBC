@@ -1,16 +1,14 @@
 import { Container, Col, Row } from 'react-bootstrap';
 import './Contact.css';
-import contactI from './../static/ContactImage.png'
-import Icon from './../static/mapIcon.svg';
+import contactI from './../../static/ContactImage.png'
+import Icon from './../../static/mapIcon.svg';
 import Courousel from './corousel';
-import Footer from './footer.js';
-import NavBar_Desktop from './navbar.js';
+import Footer from './../footer_desktop/footer.js';
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
-import Button from '@material-ui/core/Button';
-import MapSection from './map.js';
+import MapSection from './../map/map.js';
 
 const UseStyles = makeStyles({
   list: {
