@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden;
 }
+.t-l {
+    text-align: left;
+}
 .fz{
     font-size: 100px;
 }
