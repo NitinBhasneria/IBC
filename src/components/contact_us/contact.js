@@ -65,9 +65,9 @@ export default function Contact() {
                                 <Col sm={7} className="pt-xl-5 pt-lg-4 pt-md-3 pt-sm-2 pl-0 h-100 info_content" >
                                     <b>Email :</b> yashsrivastava326@gmail.com<br></br><br></br>
                                     <b>Phone number :</b> 7579252284<br></br><br></br>
-                                    <b>Map</b>
+                                    
                                         <React.Fragment key={'right'}>
-                                            <img onClick={toggleDrawer('right', true)} className="pl-3" src={Icon} />
+                                            <div><b  className="pointer_cursor" onClick={toggleDrawer('right', true)} >Map</b><img onClick={toggleDrawer('right', true)} className="pl-3 pointer_cursor" src={Icon} /></div>
                                           <SwipeableDrawer
                                             anchor={'right'}
                                             open={state['right']}
@@ -101,7 +101,6 @@ export default function Contact() {
                 </Container>
             </div>
             <Courousel />
-            <Footer />
         </div>
   );
 }

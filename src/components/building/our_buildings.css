@@ -1,0 +1,194 @@
+.react_multi_carousel_list_forone {
+	height: 600px;
+}
+.ok2_forone {
+    position: absolute;
+    left: 1275px;
+    max-height: 50px;
+    width: 50px;
+    top: 12px;
+    z-index: 1000;
+    border: none;
+    background: no-repeat;
+    overflow: hidden;
+}
+.left_arrow_forone {
+    background: no-repeat;
+    border: none;
+    position: relative;
+    left: 1170px;
+    max-height: 50px;
+    overflow: hidden;
+    top: -49px;
+    width: 100px;
+}
+.explore_button {
+    width: 35%;
+    height: 15%;
+    background: #9D9D9C;
+    border-radius: 5px;
+    font-size: 16%;
+    font-family: Lato;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.height_three {
+    height: 89%;
+}
+.react_multi_carousel_list_forthree {
+    height: 640px;
+}
+.project_forone {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background: #F8F9FB;
+    border-radius: 5px;
+    position: relative;
+    top: 36px;
+}
+.project_forthree {
+    height: 490px;
+    display: flex;
+    align-items: center;
+    background: #F8F9FB;
+    border-radius: 5px;
+    position: relative;
+    top: 36px;
+}
+.project_build_head_4 {
+    font-family: EB Garamond;
+    font-size: 28%;
+    text-align: left;
+    font-weight: 400;
+}
+.project_build_info_4 {
+    font-family: Lato;
+    font-size: 20%;
+    text-align: left;
+    font-weight: 300;
+}
+/*@media screen and  (min-width: 1400px) {
+    .contain{
+        max-width: 1350px !important ;
+    }
+    .contact {
+        height: 600px;
+    }
+    .arrowpad {
+        padding-right: 2.6rem !important;
+    }
+}*/
+@media (max-width:1399px) {
+    .left_arrow_forone  {
+        left: 950px;
+        top: -48px;
+    }
+    .ok2_forone  {
+        left: 1065px;
+    }
+    .react_multi_carousel_list_forone {
+	    height: 550px;
+	}
+	.project_forone {
+	    height: 380px;
+	    top: 36px;
+	}
+	.project_forthree {
+	    height: 425px;
+	}
+	.react_multi_carousel_list_forthree {
+    	height: 590px;
+	}
+} 
+@media (max-width: 1200px) {
+    .react_multi_carousel_list_forone {
+        height: 460px;
+    }
+    .project_forone {
+	    height: 340px;
+	}
+    .left_arrow_forone  {
+        left: 830px;
+        overflow: inherit;
+        top: -24px;
+    }
+    .ok2_forone  {
+        left: 885px;
+        overflow: initial;
+        top: 24px;
+    }
+    .project_forthree {
+	    height: 345px;
+	}
+	.react_multi_carousel_list_forthree {
+    	height: 450px;
+	}
+	.project_build_head_4 {
+	    font-size: 26%;
+	}
+	.project_build_info_4 {
+		font-size: 19%;
+	}
+}
+@media (max-width: 992px) {
+    .react_multi_carousel_list_forone {
+        height: 340px;
+    }
+    .project_forone {
+	    height: 245px;
+	}
+    .left_arrow_forone  {
+        left: 585px;
+        overflow: inherit;
+        top: -1.2px;
+    }
+    .ok2_forone  {
+        left: 645px;
+        overflow: initial;
+        top: 35px;
+    }
+    .project_forthree {
+	    height: 255px;
+	}
+	.react_multi_carousel_list_forthree {
+    	height: 350px;
+	}
+	.project_build_head_4 {
+	    font-size: 24%;
+	}
+	.project_build_info_4 {
+		font-size: 17%;
+	}
+}
+@media (max-width: 768px) {
+    .react_multi_carousel_list_forone {
+        height: 250px;
+    }
+    .project_forthree {
+	    height: 175px;
+	}
+	.react_multi_carousel_list_forthree {
+    	height: 230px;
+	}
+    .project_forone {
+	    height: 170px;
+	}
+	.project_build_head_4 {
+	    font-size: 22%;
+	}
+    .ok2_forone  {
+        left: 465px;
+        overflow: initial;
+        top: 41px;
+    }
+    .left_arrow_forone  {
+        left: 415px;
+        overflow: inherit;
+        top: 4.8px;
+    }
+}

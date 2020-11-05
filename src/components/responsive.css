@@ -10,14 +10,30 @@ body {
 .text-center {
     text-align: center;
 }
+.pointer_cursor {
+    cursor: pointer;
+}
+.w-max-100 {
+    max-width: 100% !important;
+}
 button:focus {
     outline: none;
+}
+.flex-100 {
+    height: 100%;
+    display: flex;
 }
 .mt-0_8 {
     margin-top: 0.8rem;
 }
 .pt-7 {
     padding-top: 5rem !important;
+}
+.flex-coloumn-vc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .flex-row-vc {
     display: flex;
@@ -33,6 +49,12 @@ button:focus {
 @media (max-width: 1500px) {
     .fz {
         font-size: 92px;
+    }
+}
+@media (min-width: 1201px) {
+    .my-xl-2_5 {
+        margin-top: .75rem !important;
+        margin-bottom: .75rem !important;
     }
 }
 @media (max-width: 1200px) {
