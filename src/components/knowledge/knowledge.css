@@ -1,6 +1,23 @@
 .react-multi-carousel-list_one {
     height: max-content !important;
 }
+.gallary {
+    display: flex;
+    flex-direction: row;
+}
+.gallary1 {
+        min-width: 45%;
+}
+.gallary2 {
+    min-height: 54%;
+}
+.gallary3 {
+    max-height: 46%;
+    min-width: 96%;
+}
+.react-multi-carousel-list-gallary {
+    height: 970px;
+}
 .w-100vw {
     width: 100vw !important;
     height: max-content !important;
@@ -93,6 +110,9 @@
         max-height: 100%;
         min-height: 100%;
     }
+    .react-multi-carousel-list-gallary {
+        height: 870px;
+    }
     .px-xll-4_5 {
         padding-left: 2.5rem !important;
         padding-right: 2.5rem !important;
@@ -101,6 +121,21 @@
 @media (max-width:1200px) {
     .location_text {
         font-size: 14%;
+    }
+    .react-multi-carousel-list-gallary {
+        height: 740px;
+    }
+    .gallary1 {
+        min-width: 45%;
+        max-height: 96%;
+    }
+    .gallary2 {
+        min-height: 49%;
+        max-width: 96%;
+    }
+    .gallary3 {
+        max-height: 45%;
+        max-width: 88%;
     }
     .px-lg-4_5 {
         padding-left: 2.1rem !important;
@@ -111,10 +146,26 @@
     }
 }
 @media (max-width: 992px) {
+    .react-multi-carousel-list-gallary {
+        height: 530px;
+    }
     .paras_knowledge {
         font-size: 16%;
         font-family: Lato;
         font-weight: 300;
+    }
+    .gallary1 {
+        min-width: 45%;
+        max-height: 94%;
+    }
+    .gallary2 {
+        max-height: 50%;
+        max-width: 93%;
+    }
+    .gallary3 {
+        max-height: 45%;
+        max-width: 59%;
+        min-width: 93%;
     }
     .location_container {
         height: 70px;
@@ -129,8 +180,27 @@
         position: relative;
         top: -23px;
     }
+    .react-multi-carousel-list-gallary {
+        height: 405px;
+    }
     .location_container {
         height: 70px;
+    }
+    .gallary3 {
+        max-height: 45%;
+        max-width: 59%;
+        min-width: 95%;
+    }
+    .highlight_text {
+        font-size: 20%;
+    }
+    .gallary2 {
+        max-height: 50%;
+        max-width: 95%;
+    }
+    .gallary1 {
+        min-width: 45%;
+        max-height: 95%;
     }
     .paras_knowledge {
         font-size: 15%;

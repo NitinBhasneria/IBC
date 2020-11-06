@@ -19,12 +19,14 @@ import Foundation from "./components/foundation/foundation.js";
 import "./components/foundation/foundation.css";
 import "./components/knowledge/knowledge.css";
 import Knowledge from "./components/knowledge/knowledge.js"
+import KPExperience from './components/knowledge/KPExperience'
 
 function App() {
   return (
     <Router history={history} forceRefresh={false}>
       	<Navbar_Desktop />
       	<Switch>
+          <Route exact path='/ibc/KPExperi' component={KPExperience} />
           <Route exact path='/ibc/knowledge' component={Knowledge} />
           <Route exact path='/ibc/foundation' component={Foundation} />
           <Route exact path='/ibc/experience' component={Experience} />
