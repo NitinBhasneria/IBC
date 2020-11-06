@@ -1,0 +1,144 @@
+.react-multi-carousel-list_one {
+    height: max-content !important;
+}
+.w-100vw {
+    width: 100vw !important;
+    height: max-content !important;
+}
+.info_content_knowledge {
+    font-size: 22%;
+    font-family: lato;
+    font-weight: 300;
+}
+.highlight_text {
+    font-family: EB Garamond;
+    font-size: 24%;
+    text-align: center;
+    font-weight: 400;
+}
+.bg_white {
+    background: white;
+} 
+.carousel_one {
+    position: relative;
+    top: -47px;
+}
+.paras_knowledge {
+    font-size: 18%;
+    font-family: Lato;
+    font-weight: 300;
+}
+.knowledge_park_title {
+    margin-top: 0;
+    font-family: EB Garamond;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    background: white;
+    position: relative;
+    width: max-content;
+    top: -80px;
+    padding: 0px 11px;
+    font-size: 40%;
+}
+.react-multi-carousel-dot-list {
+    bottom: 65px;
+}
+.image_knowledge {
+    width: 100%;
+    max-height: 84%;
+    min-height: 80%;
+}
+.knowledge_map {
+    height: 500px;
+}
+.location_container {
+    height: 100px;
+    background: #F8F9FB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+.location_row {
+    height: 70%;
+}
+.border_location {
+    border-right: 0.5px solid #9D9D9C;
+}
+.location_text {
+    font-size: 15%;
+    font-family: Lato;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text1 {
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #606060;
+    font-family: 300 !important;
+}
+.text2 {
+    font-family: 300 !important;
+}
+.px-xll-4_5 {
+    padding-left: 3.4rem !important;
+    padding-right: 3.4rem !important;
+}
+@media (max-width:1400px) {
+    .image_knowledge {
+        width: 100%;
+        max-height: 100%;
+        min-height: 100%;
+    }
+    .px-xll-4_5 {
+        padding-left: 2.5rem !important;
+        padding-right: 2.5rem !important;
+    }
+}
+@media (max-width:1200px) {
+    .location_text {
+        font-size: 14%;
+    }
+    .px-lg-4_5 {
+        padding-left: 2.1rem !important;
+        padding-right: 2.1rem !important;
+    }
+    .location_container {
+        height: 80px;
+    }
+}
+@media (max-width: 992px) {
+    .paras_knowledge {
+        font-size: 16%;
+        font-family: Lato;
+        font-weight: 300;
+    }
+    .location_container {
+        height: 70px;
+    }
+    .px-lg-4_5 {
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+    }
+}
+@media (max-width: 768px){
+    .carousel_one {
+        position: relative;
+        top: -23px;
+    }
+    .location_container {
+        height: 70px;
+    }
+    .paras_knowledge {
+        font-size: 15%;
+        font-family: Lato;
+        font-weight: 300;
+    }
+    .px-lg-4_5 {
+        padding-left: .8rem !important;
+        padding-right: .8rem !important;
+    }
+}

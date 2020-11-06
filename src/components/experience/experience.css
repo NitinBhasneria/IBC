@@ -1,0 +1,45 @@
+.titleName {
+	font-size: 24%;
+	font-family: EB Garamond;
+	font-weight: 400;
+}
+.titleTitle {
+	font-size: 20%;
+	font-family: lato;
+	font-weight: 300;
+}
+.title_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: self-end;
+}
+.title_info_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: self-end;
+}
+.contact_experience {
+    height: 660px;
+}
+@media (max-width: 1399px) {
+	.contact_experience {
+	    height: 575px;
+	}
+}
+@media (max-width: 1200px) {
+	.contact_experience {
+	    height: 465px;
+	}
+}
+@media (max-width: 992px) {
+    .contact_experience {
+	    height: 375px;
+	}
+}
+@media (max-width: 768px) {
+    .contact_experience {
+	    height: 300px;
+	}
+}

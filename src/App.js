@@ -13,12 +13,21 @@ import Footer from "./components/footer_desktop/footer"
 import Buildings from "./components/building/our_buildings"
 import "./components/tommorow/tommorow.css";
 import Tommorow from "./components/tommorow/tommorow";
+import Experience from "./components/experience/experience"
+import "./components/experience/experience.css"
+import Foundation from "./components/foundation/foundation.js";
+import "./components/foundation/foundation.css";
+import "./components/knowledge/knowledge.css";
+import Knowledge from "./components/knowledge/knowledge.js"
 
 function App() {
   return (
     <Router history={history} forceRefresh={false}>
       	<Navbar_Desktop />
       	<Switch>
+          <Route exact path='/ibc/knowledge' component={Knowledge} />
+          <Route exact path='/ibc/foundation' component={Foundation} />
+          <Route exact path='/ibc/experience' component={Experience} />
           <Route exact path='/ibc/tommorow' component={Tommorow} />
           <Route exact path='/ibc/building' component={Buildings} />
           <Route exact path='/ibc/future' component={Future} />

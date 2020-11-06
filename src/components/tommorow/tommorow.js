@@ -16,7 +16,7 @@ function Tommorow() {
 			<div className="fz tommorow">
 				<Container fluid="sm" className="contain h-75 pr-0 pl-0">
 		            <Row>
-		            	<Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">TRAJECTORY</Col>
+		            	<Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">WHO WE ARE</Col>
 		                <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
 		            </Row>
 		            <Row>
