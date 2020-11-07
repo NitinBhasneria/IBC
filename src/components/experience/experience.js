@@ -23,7 +23,7 @@ function experience() {
 			<div className="contact_experience pb-5 mb-xl-5 mb-md-4 mb-sm-3 fz">
                 <Container fluid="sm" className = "contain h-100">
                     <Row className = "h-100 w-100">
-                        <Col sm={4} className = "h-100 pr-0" >
+                        <Col sm={4} className = "h-100 pr-0 pl-0" >
                             <img src={Founder}
                                 class="image"/></Col>
                         <Col sm className="h-100 info pr-0">
