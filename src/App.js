@@ -20,12 +20,20 @@ import "./components/foundation/foundation.css";
 import "./components/knowledge/knowledge.css";
 import Knowledge from "./components/knowledge/knowledge.js"
 import KPExperience from './components/knowledge/KPExperience'
+import Knowledge2 from './components/knowledge2/knowledge2';
+import './components/knowledge2/knowledge2.css';
+import GallaryVideo from './components/gallary_video/gallaryVideo';
+import Home from './components/home/home';
+import "./components/home/home.css";
 
 function App() {
   return (
     <Router history={history} forceRefresh={false}>
       	<Navbar_Desktop />
       	<Switch>
+          <Route exact path='/ibc' component={Home} />
+          <Route exact path='/ibc/gallary' component={GallaryVideo} />
+          <Route exact path='/ibc/knowledge2' component={Knowledge2} />
           <Route exact path='/ibc/KPExperi' component={KPExperience} />
           <Route exact path='/ibc/knowledge' component={Knowledge} />
           <Route exact path='/ibc/foundation' component={Foundation} />

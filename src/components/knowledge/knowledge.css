@@ -16,7 +16,7 @@
     min-width: 96%;
 }
 .react-multi-carousel-list-gallary {
-    height: 970px;
+    height: 880px;
 }
 .w-100vw {
     width: 100vw !important;
@@ -62,7 +62,7 @@
 }
 .image_knowledge {
     width: 100%;
-    max-height: 84%;
+    max-height: 100%;
     min-height: 80%;
 }
 .knowledge_map {
@@ -101,21 +101,43 @@
     font-family: 300 !important;
 }
 .px-xll-4_5 {
-    padding-left: 3.4rem !important;
-    padding-right: 3.4rem !important;
+    padding-left: 3.1rem !important;
+    padding-right: 3.1rem !important;
 }
-@media (max-width:1400px) {
+@media (max-width: 1550px) {
+    .px-xll-4_5 {
+        padding-left: 2.4rem !important;
+        padding-right: 2.4rem !important;
+    }
+}
+@media (max-width: 1450px) {
+    .px-xll-4_5 {
+        padding-left: 1.6rem !important;
+        padding-right: 1.6rem !important;
+    }
+}
+@media (max-width:1290px) {
     .image_knowledge {
         width: 100%;
         max-height: 100%;
         min-height: 100%;
     }
     .react-multi-carousel-list-gallary {
-        height: 870px;
+        height: 840px;
+    }
+    .gallary2 {
+        min-height: 46%;
+        min-width: 96%;
+        max-height: 51%;
+    }
+    .gallary1 {
+        min-width: 45%;
+        min-height: 80%;
+        max-height: 97%;
     }
     .px-xll-4_5 {
-        padding-left: 2.5rem !important;
-        padding-right: 2.5rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
     }
 }
 @media (max-width:1200px) {
@@ -123,7 +145,7 @@
         font-size: 14%;
     }
     .react-multi-carousel-list-gallary {
-        height: 740px;
+        height: 665px;
     }
     .gallary1 {
         min-width: 45%;
@@ -138,8 +160,8 @@
         max-width: 88%;
     }
     .px-lg-4_5 {
-        padding-left: 2.1rem !important;
-        padding-right: 2.1rem !important;
+        padding-left: 1.9rem !important;
+        padding-right: 1.9rem !important;
     }
     .location_container {
         height: 80px;
@@ -149,8 +171,13 @@
     .react-multi-carousel-list-gallary {
         height: 530px;
     }
+    .gallary3 {
+        max-height: 44%;
+        max-width: 57%;
+        min-width: 96%;
+    }
     .paras_knowledge {
-        font-size: 16%;
+        font-size: 18%;
         font-family: Lato;
         font-weight: 300;
     }
@@ -162,17 +189,12 @@
         max-height: 50%;
         max-width: 93%;
     }
-    .gallary3 {
-        max-height: 45%;
-        max-width: 59%;
-        min-width: 93%;
-    }
     .location_container {
         height: 70px;
     }
     .px-lg-4_5 {
-        padding-left: 1.4rem !important;
-        padding-right: 1.4rem !important;
+        padding-left: 1.7rem !important;
+        padding-right: 1.7rem !important;
     }
 }
 @media (max-width: 768px){
@@ -203,7 +225,7 @@
         max-height: 95%;
     }
     .paras_knowledge {
-        font-size: 15%;
+        font-size: 16%;
         font-family: Lato;
         font-weight: 300;
     }

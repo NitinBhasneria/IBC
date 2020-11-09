@@ -55,7 +55,7 @@ function courousel() {
     return <div className='ok2'  ><img onClick={() => onClick()} className='arrow' src={rightArrow} /></div>;
   };
     return (
-        <Container fluid="sm" className="contain pt-lg-5 mt-lg-5 pt-md-4 pt-sm-3 mt-sm-4 fz">
+        <Container fluid="sm" className="contain pt-xl-5 mt-xl-5 pt-md-4 fz">
             {/* <Row className ='carousel_head'>
                 <Col sm="auto" className="h-100 info_content cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">FOREIGN HEADQUARTERS</Col>
                 <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
@@ -84,25 +84,25 @@ function courousel() {
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={USA}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-lg-5 pt-md-3 pt-sm-2'>USA</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>USA</h3>
                     <p className='text-center small_content'>Lorem ipsum dolor sit<br></br>amet, consectetur </p>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={UK}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-lg-5 pt-md-3 pt-sm-2'>UK</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>UK</h3>
                     <p className='text-center small_content'>Lorem ipsum dolor sit<br></br>amet, consectetur </p>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={UAE}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-lg-5 pt-md-3 pt-sm-2'>UAE</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>UAE</h3>
                     <p className='text-center small_content'>Lorem ipsum dolor sit<br></br>amet, consectetur </p>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={GERMANY}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-lg-5 pt-md-3 pt-sm-2'>GERMANY</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>GERMANY</h3>
                     <p className='text-center small_content'>Lorem ipsum dolor sit<br></br>amet, consectetur </p>
                 </Col>
             </Carousel>

@@ -45,7 +45,7 @@ function experience() {
                             	<Col className="pl-0"><p className="paras pl-0">{paraFounder1}<br></br><br></br>{paraFounder2}</p></Col>
                             </Row>
                             <Row className="px-xl-5 h-50 px-lg-4 px-md-3 px-sm-2 pb-xl-5 pb-lg-4 pb-md-3 info title_info_right">
-                            	<Col lg="5" md="6" sm="7" className='h-50'><p className="mb-1 mt-xl-5 mt-lg-4 mt-md-3 mt-sm-2 titleName">Mr. Rahul Jaimini<br></br></p><p className="titleTitle">CEO, SWIGGY</p></Col>
+                            	<Col lg="6" md="6" sm="7" className='h-50'><p className="mb-1 mt-xl-5 mt-lg-4 mt-md-3 mt-sm-2 titleName">Mr. Rahul Jaimini<br></br></p><p className="titleTitle">CEO, SWIGGY</p></Col>
                             </Row>
                         </Col>
                         <Col sm={4} className = "h-100 pr-0" >

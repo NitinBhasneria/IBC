@@ -23,9 +23,19 @@
 .contact_experience {
     height: 660px;
 }
-@media (max-width: 1399px) {
+@media (max-width: 1550px) {
 	.contact_experience {
-	    height: 575px;
+		height: 640px;
+	}
+}
+@media (max-width: 1450px) {
+	.contact_experience {
+		height: 580px;
+	}
+}
+@media (max-width: 1290px) {
+	.contact_experience {
+	    height: 510px;
 	}
 }
 @media (max-width: 1200px) {

@@ -38,6 +38,9 @@ button:focus {
     align-items: center;
     justify-content: center;
 }
+.bg-white {
+    background-color: white;
+}
 .flex-row-vc {
     display: flex;
     flex-direction: row;
@@ -49,25 +52,20 @@ button:focus {
     justify-content: flex-end;
     align-items: center;
 }
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
     .fz {
-        font-size: 92px;
+        font-size: 98px;
     }
 }
-@media (min-width: 1201px) {
-    .my-xl-2_5 {
-        margin-top: .75rem !important;
-        margin-bottom: .75rem !important;
-    }
-}
-@media (max-width: 1200px) {
+@media (max-width: 1290px) {
     .fz {
-        font-size: 85px;
+        font-size: 85px !important;
     }
 }
+
 @media (max-width: 992px) {
     .fz {
-        font-size: 70px;
+        font-size: 65px !important;
     }
     .pt-7 {
         padding-top: 3rem !important;
@@ -75,7 +73,7 @@ button:focus {
 }
 @media (max-width: 768px) {
     .fz {
-        font-size: 60px;
+        font-size: 55px !important;
     }
     .pt-7 {
         padding-top: 2rem !important;
@@ -83,9 +81,45 @@ button:focus {
 }
 @media (max-width: 576px) {
     .fz {
-        font-size: 50px;
+        font-size: 45px !important;
     }
     .pt-7 {
         padding-top: 1rem !important;
+    }
+}
+@media (min-width: 1551px) {
+    .contain, .container, .container-lg, .container-md, .container-sm {
+        max-width: 1300px !important; 
+    }
+}
+@media (max-width: 1550px) {
+    .contain, .container, .container-lg, .container-md, .container-sm {
+        max-width: 1150px !important; 
+    }
+}
+@media (max-width: 1450px) {
+    .contain, .container, .container-lg, .container-md, .container-sm {
+        max-width: 1000px !important; 
+    }
+}
+@media (max-width:1290px) {
+    .contain, .container, .container-lg, .container-md, .container-sm {
+        max-width: 900px !important; 
+    }
+}
+@media (min-width: 1201px) {
+    .my-xl-2_5 {
+        margin-top: .40rem !important;
+        margin-bottom: .6rem !important;
+    }
+}
+@media (max-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 750px !important;
+    }
+}
+@media (max-width: 768px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 555px !important;
     }
 }

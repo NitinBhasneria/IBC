@@ -18,7 +18,7 @@
 }
 .project_build_info {
     font-family: Lato;
-    font-size: 20%;
+    font-size: 18%;
     text-align: center;
     font-weight: 300;
 }
@@ -56,21 +56,32 @@
         border-top: none;
         border-bottom: none;
 }
-@media (max-width: 1400px) {
+@media (max-width:1550px) {
     .project {
-        height: 400px;
+        height: 410px;
     }
 }
-@media (max-width: 1200px){
-    .future_head {
+@media (max-width:1450px) {
+    .project {
+        height: 360px;
+    }
+}
+@media (max-width: 1290px) {
+    .project {
         height: 400px;
     }
     .future_mid {
         height: 150px;
     }
     .project {
-        height: 350px;
-    }    
+        height: 300px;
+    }
+    .project_build_info {
+        font-size: 18%;
+    }
+    .project_build_head {
+        font-size: 27%;
+    }
 }
 @media (max-width: 992px) {
     .counts_golden {

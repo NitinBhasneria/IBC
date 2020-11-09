@@ -3,7 +3,7 @@
 }
 .ok2_forone {
     position: absolute;
-    left: 1275px;
+    left: 1225px;
     max-height: 50px;
     width: 50px;
     top: 12px;
@@ -16,7 +16,7 @@
     background: no-repeat;
     border: none;
     position: relative;
-    left: 1170px;
+    left: 1120px;
     max-height: 50px;
     overflow: hidden;
     top: -49px;
@@ -62,13 +62,13 @@
 }
 .project_build_head_4 {
     font-family: EB Garamond;
-    font-size: 28%;
+    font-size: 26%;
     text-align: left;
     font-weight: 400;
 }
 .project_build_info_4 {
     font-family: Lato;
-    font-size: 20%;
+    font-size: 18%;
     text-align: left;
     font-weight: 300;
 }
@@ -83,57 +83,117 @@
         padding-right: 2.6rem !important;
     }
 }*/
-@media (max-width:1399px) {
+@media (max-width: 1550px) {
+    .height_three {
+        height: 84%;
+    }
+    .ok2_forone {
+        left: 1077px;
+    }
+    .left_arrow_forone {
+        left: 975px;
+    }
+    .project_forthree {
+        height: 440px;
+    }
+    .react_multi_carousel_list_forthree {
+        height: 560px;
+    }
+    .react_multi_carousel_list_forone {
+        height: 520px;
+    }
+    .project_forone {
+        height: 370px;
+        top: 36px;
+    }
+}
+@media (max-width:1450px) {
+    .navbar_items {
+        font-size: 12%;
+    }
     .left_arrow_forone  {
-        left: 950px;
+        left: 820px;
         top: -48px;
     }
     .ok2_forone  {
-        left: 1065px;
+        left: 925px;
     }
     .react_multi_carousel_list_forone {
-	    height: 550px;
-	}
+        height: 500px;
+    }
 	.project_forone {
-	    height: 380px;
-	    top: 36px;
-	}
+        height: 350px;
+        top: 36px;
+    }
+    .height_three {
+        height: 82%;
+    }
 	.project_forthree {
-	    height: 425px;
-	}
+        height: 390px;
+    }
 	.react_multi_carousel_list_forthree {
-    	height: 590px;
-	}
+        height: 555px;
+    }
 } 
-@media (max-width: 1200px) {
+@media (max-width: 1290px) {
     .react_multi_carousel_list_forone {
         height: 460px;
     }
     .project_forone {
-	    height: 340px;
-	}
-    .left_arrow_forone  {
-        left: 830px;
-        overflow: inherit;
-        top: -24px;
+        height: 300px;
     }
-    .ok2_forone  {
-        left: 885px;
+    .left_arrow_forone {
+        left: 720px;
+        overflow: inherit;
+        top: -33px;
+    }
+    .ok2_forone {
+        left: 825px;
         overflow: initial;
         top: 24px;
     }
     .project_forthree {
 	    height: 345px;
-	}
-	.react_multi_carousel_list_forthree {
-    	height: 450px;
-	}
+    }
+    .react_multi_carousel_list_forthree {
+        height: 500px;
+    }
+	.react_multi_carousel_list_forone {
+        height: 430px;
+    }
 	.project_build_head_4 {
 	    font-size: 26%;
-	}
+    }
+    .height_three {
+        height: 83%;
+    }
 	.project_build_info_4 {
 		font-size: 19%;
 	}
+}
+@media (max-width: 1200px) {
+    .left_arrow_forone {
+        left: 720px;
+        overflow: inherit;
+        top: -32px;
+    }
+    .ok2_forone {
+        left: 825px;
+        overflow: initial;
+        top: 24px;
+    }
+}
+@media (max-width: 1199px) {
+    .left_arrow_forone {
+        left: 760px;
+        overflow: inherit;
+        top: -24px;
+    }
+    .ok2_forone {
+        left: 825px;
+        overflow: initial;
+        top: 24px;
+    }
 }
 @media (max-width: 992px) {
     .react_multi_carousel_list_forone {
@@ -142,13 +202,13 @@
     .project_forone {
 	    height: 245px;
 	}
-    .left_arrow_forone  {
-        left: 585px;
+    .left_arrow_forone {
+        left: 625px;
         overflow: inherit;
         top: -1.2px;
     }
-    .ok2_forone  {
-        left: 645px;
+    .ok2_forone {
+        left: 678px;
         overflow: initial;
         top: 35px;
     }
@@ -181,13 +241,13 @@
 	.project_build_head_4 {
 	    font-size: 22%;
 	}
-    .ok2_forone  {
-        left: 465px;
+    .ok2_forone {
+        left: 485px;
         overflow: initial;
         top: 41px;
     }
-    .left_arrow_forone  {
-        left: 415px;
+    .left_arrow_forone {
+        left: 430px;
         overflow: inherit;
         top: 4.8px;
     }

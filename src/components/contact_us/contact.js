@@ -61,8 +61,8 @@ export default function Contact() {
                         <Col sm className="h-100 info pr-0">
                             <Row className="coperate h-50 p-xl-5 p-lg-4 p-md-3 p-sm-2 info">Corporate<br></br>Headquarters</Row>
                             <Row className="h-50 p-xl-5 p-lg-4 p-md-3 p-sm-2 info">
-                                <Col sm={5} className="pt-xl-5 pt-lg-4 pt-md-3 pt-sm-2 pl-0 h-100 info_content">ABC road, X street <br></br>Bangalore.<br></br>India</Col>
-                                <Col sm={7} className="pt-xl-5 pt-lg-4 pt-md-3 pt-sm-2 pl-0 h-100 info_content" >
+                                <Col sm={5} className="pt-xl-5 pt-lg-4 pt-md-3 pt-sm-2 pl-0 h-100 info_content2">ABC road, X street <br></br>Bangalore.<br></br>India</Col>
+                                <Col sm={7} className="pt-xl-5 pt-lg-4 pt-md-3 pt-sm-2 pl-0 h-100 info_content2" >
                                     <b>Email :</b> yashsrivastava326@gmail.com<br></br><br></br>
                                     <b>Phone number :</b> 7579252284<br></br><br></br>
                                     
@@ -86,11 +86,11 @@ export default function Contact() {
             <div className="mid fz pt-xl-5 pt-md-5 pt-sm-4">
                 <Container fluid="sm" className = "contain h-100">
                     <Row className="pt-xl-5 pt-md-5 pt-sm-3 w-100">
-                        <Col xl={9} lg={8} md={7} sm={7} className="pt-xl-5 pt-md-5 pt-sm-4">
+                        <Col xl={8} lg={8} md={7} sm={7} className="pt-xl-5 pt-md-5 pt-sm-4">
                             <h3 className="head_project">Project offices<br></br></h3>
                             <p className='info_content cl-grey l_h'>ABC road, X street<br></br>Bangalore.<br></br>India</p>
                         </Col>
-                        <Col xl={3} lg={4} md={5} sm={5} className="pt-xl-5 pt-md-5 pt-sm-4">
+                        <Col xl={4} lg={4} md={5} sm={5} className="pt-xl-5 pt-md-5 pt-sm-4">
                             <h3 className="head_project">Marketing<br></br></h3>
                             <p className='info_content cl-grey'>
                                 <b>Name :</b> Yash Srivastava<br></br>

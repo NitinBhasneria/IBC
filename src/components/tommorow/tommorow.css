@@ -6,6 +6,9 @@
 .contact_tommorow {
     height: 615px;
 }
+.bg-grey {
+	background: #F8F9FB;
+}
 .position_title {
 	position: relative;
 	right: 15px;
@@ -74,16 +77,34 @@
 	border-left: 0.5px solid #9D9D9C;
 	border-right: 0.5px solid #9D9D9C;
 }
-
-@media (max-width: 1399px) {
+.height_grey {
+    height: 453px;
+}
+@media (max-width: 1450px) {
 	.tommorow {
 	    height: 500px;
 	}
+	.height_grey {
+		height: 362px;
+	}
 	.width_founder {
-	    width: 60%;
+		width: 65%;
 	}
 	.contact_tommorow {
-	    height: 575px;
+		height: 525px;
+	}
+	.paras {
+		font-size: 15%;
+		font-family: Lato;
+		font-weight: 300;
+	}
+}
+@media (max-width: 1290px) {
+	.contact_tommorow {
+		height: 480px;
+	}
+	.height_grey {
+		height: 325px;
 	}
 }
 @media (max-width: 1200px) {
@@ -93,6 +114,9 @@
 	.width_founder {
 	    width: 60%;
 	}
+	.height_grey {
+		height: 365px;
+	}
 	.contact_tommorow {
 	    height: 465px;
 	}
@@ -100,6 +124,9 @@
 @media (max-width: 992px) {
 	.tommorow {
 		height: 350px;
+	}
+	.height_grey {
+		height: 300px;
 	}
 	.width_founder {
 	    width: 70%;

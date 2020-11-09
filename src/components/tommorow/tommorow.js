@@ -53,7 +53,7 @@ function Tommorow() {
                                 class="image"/></Col>
                         <Col sm className="h-100 info pr-0">
                             <Row className="founder_head_topic pb-xl-3 pb-md-2 pt-xl-5 pt-lg-4 pt-md-3 pl-sm-2 pl-xl-5 pl-lg-4 pl-md-3 pl-sm-2 info">Lorem ipsum</Row>
-                            <Row className="px-xl-5 px-lg-4 px-md-3 px-sm-2 pb-xl-5 pb-lg-4 pb-md-3 info">
+                            <Row className="px-xl-5 px-lg-4 px-md-3 px-sm-2 height_grey info">
                             	<Col className="pl-0"><p className="paras pl-0">{paraFounder1}<br></br><br></br>{paraFounder2}<br></br><br></br>{paraFounder3}<br></br><br></br>{paraFounder4}</p></Col>
                             </Row>
                         </Col>

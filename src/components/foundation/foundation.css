@@ -20,7 +20,7 @@
 .foundation {
     height: 800px;
 }
-@media (max-width: 1399px) {
+@media (max-width: 1290px) {
 	.foundation {
 	    height: 750px;
 	}

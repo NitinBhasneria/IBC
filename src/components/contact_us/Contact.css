@@ -60,7 +60,7 @@
     background: no-repeat;
     border: none;
     position: relative;
-    left: 1142px;
+    left: 1092px;
     max-height: 50px;
     overflow: hidden;
     top: -49px;
@@ -75,7 +75,7 @@
 }
 .ok2 {
     position: absolute;
-    left: 1250px;
+    left: 1200px;
     max-height: 50px;
     width: 50px;
     top: 12px;
@@ -91,8 +91,13 @@
     border-radius: 0px;
     border: none;
 }
-.info_content {
+.info_content2 {
     font-size: 18%;
+    font-family: lato;
+    font-weight: 300;
+}
+.info_content {
+    font-size: 19%;
     font-family: lato;
     font-weight: 300;
 }
@@ -108,54 +113,77 @@
     font-family: EB Garamond;
     font-size: 35%
 }
-@media screen and  (min-width: 1400px) {
-    .contain{
-        max-width: 1350px !important ;
+@media (max-width: 1550px) {
+    .ok2 {
+        left: 1055px;
     }
-    .contact {
-        height: 600px;
-    }
-    .arrowpad {
-        padding-right: 2.6rem !important;
+    .left_arrow {
+        left: 940px;
     }
 }
-@media (max-width:1399px) {
+@media (max-width: 1450px) {
     .contact {
-        height: 550px;
+        height: 480px;
+    }
+    .ok2 {
+        left: 910px;
+    }
+    .left_arrow {
+        left: 795px;
+    }
+    .react-multi-carousel-list {
+        height: 650px;
+    }
+    .info_content2 {
+        font-size: 15%;
+        font-family: lato;
+        font-weight: 300;
+    }
+    .coperate {
+        font-family: EB Garamond;
+        font-size: 35%;
+    }
+    .contact {
+        height: 450px;
+    }
+}
+@media (max-width:1290px) {
+    .info_content2 {
+        font-size: 14%;
+        font-family: lato;
+        font-weight: 300;
+    }
+    .coperate {
+        font-family: EB Garamond;
+        font-size: 35%;
+    }
+    .contact {
+        height: 420px;
     }
     .arrowpad {
         padding-right: 2.4rem !important;
     }
     .left_arrow {
-        left: 930px;
-    }
-    .ok2 {
-        left: 1045px;
-    }
-    .react-multi-carousel-list {
-        height: 650px;
-    }
-} 
-@media (max-width: 1200px) {
-    .contact {
-        font-size: 85px;
-        height: 460px;
-    }
-    .arrowpad {
-        padding-right: 2rem !important;
-    }
-    .react-multi-carousel-list {
-        height: 506px;
-    }
-    .left_arrow {
-        left: 815px;
+        left: 705px;
         overflow: inherit;
-        top: -23.2px;
+        top: -44px;
+    }
+    .react-multi-carousel-list {
+        height: 600px;
     }
     .ok2 {
-        left: 870px;
+        left: 813px;
         overflow: initial;
-        top: 24px;
+    }
+}
+@media (max-width:  1199px){
+    .left_arrow {
+        left: 740px;
+        overflow: inherit;
+        top: -36px;
+    }
+    .react-multi-carousel-list {
+        height: 500px;
     }
 }
 @media (max-width: 992px) {
@@ -164,15 +192,15 @@
         height: 330px;
     }
     .react-multi-carousel-list {
-        height: 480x;
+        height: 520px;
     }
     .left_arrow {
-        left: 560px;
+        left: 595px;
         overflow: inherit;
         top: -1.2px;
     }
     .ok2 {
-        left: 620px;
+        left: 655px;
         overflow: initial;
         top: 35px;
     }
@@ -186,6 +214,11 @@
         font-family: EB Garamond;
         height: 255px;
     }
+    .info_content2 {
+        font-size: 18%;
+        font-family: lato;
+        font-weight: 300;
+    }
     .l_h {
         line-height: 20px;
     }
@@ -194,12 +227,15 @@
     .react-multi-carousel-list {
         height: 380px;
     }
+    .height_grey {
+        height: 225px;
+    }
     .contact {
         font-size: 60px;
-        height: 237px;
+        height: 235px;
     }
     .ok2 {
-        left: 455px;
+        left: 470px;
         overflow: initial;
         top: 41px;
     }
@@ -207,8 +243,11 @@
         font-family: EB Garamond;
         height: 265px;
     }
+    .contact_tommorow {
+        height: 270px;
+    }
     .left_arrow {
-        left: 405px;
+        left: 415px;
         overflow: inherit;
         top: 4.8px;
     }
