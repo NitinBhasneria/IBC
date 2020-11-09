@@ -58,7 +58,7 @@ export default function Contact() {
                         <Col sm={4} className = "h-100" >
                             <img src={contactI}
                                 class="image"/></Col>
-                        <Col sm className="info pr-0">
+                        <Col sm className="h-100 info pr-0">
                             <Row className="coperate h-50 p-xl-5 p-lg-4 p-md-3 p-sm-2 info">Corporate<br></br>Headquarters</Row>
                             <Row className="h-50 p-xl-5 p-lg-4 p-md-3 p-sm-2 info">
                                 <Col sm={5} className="pt-xl-5 pt-lg-4 pt-md-3 pt-sm-2 pl-0 h-100 info_content2">ABC road, X street <br></br>Bangalore.<br></br>India</Col>
