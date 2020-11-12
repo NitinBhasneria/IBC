@@ -2,6 +2,9 @@ import { Container, Row, Col} from 'react-bootstrap';
 import Carousel1 from '../knowledge/carousel1';
 import './carousel1'
 import Carousel2 from './corousel2';
+import Presence from './../../static/presence.png';
+import Founder from './../../static/founder.png';
+import Founder2 from './../../static/pic2.png';
 
 function Home() {
     return (
@@ -26,6 +29,33 @@ function Home() {
                 </Container>
             </Container>
             <Carousel2 />
+            <Container fluid="sm" className="contain presence fz mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">
+                <Container fluid="sm" className="contain h-75 pr-0 pl-0">
+                    <Row>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">OUR PRESENCE</Col>
+                        <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
+                    </Row>
+                    <Row>
+                        <Col><img className="w-100" src={Presence} /></Col>
+                    </Row>
+                    <Row className="my-xl-5 my-lg-4 my-md-3 my-sm-2"><Col className="grey_box"></Col></Row>
+                </Container>
+            </Container>
+            <Container fluid="sm" className="contain founder_head fz pb-xl-5 pb-lg-4 pb-md-3 pb-xl-2">
+                <Container fluid="sm" className="contain h-75 pr-0 pl-0">
+                    <Row>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">FOUNDERS</Col>
+                        <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
+                    </Row>
+                    <Row>
+                        <Col className="flex_founder_head h-75"><p className="founder_heading">Lorem ipsum</p><p className="founder_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></Col>
+                        <Col><img className="w-96 h-93" src={Founder} /><p className="mt-lg-3 mt-md-2 mt-sm-1 founder_title">Lorem ipsum dolor sit. </p></Col>
+                        <Col><Row><img className="w-100" src={Founder2} /></Row><Row><p className="mt-lg-3 mt-md-2 mt-sm-1 founder_title" >Lorem ipsum dolor sit. </p></Row>
+                            <Row><img className="w-100 mt-lg-3 mt-md-2 mt-sm-1" src={Founder2} /></Row><Row><p className="mt-lg-3 mt-md-2 mt-sm-1 founder_title">Lorem ipsum dolor sit. </p></Row>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
         </div>
     )
 }

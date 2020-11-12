@@ -1,0 +1,80 @@
+.presence {
+    height: max-content;
+}
+.grey_box {
+    height: 150px;
+    background: #F8F9FB;
+    border-radius: 5px;
+}
+.founder_heading {
+    font-family: EB Garamond;
+    font-weight: normal;
+    font-size: 28%;
+}
+.flex_founder_head {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+.founder_para {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18%;
+    text-align: left;
+}
+.founder_title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14%;
+    line-height: 100%;
+}
+.founder_head {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+}
+.w-96 {
+    width: 96% !important;
+}
+.h-93 {
+    height: 93% !important;
+}
+@media (max-width:1550px) {
+    .founder_head {
+        height: 900px;
+    }
+}
+@media (max-width:1450px) {
+    .founder_head {
+        height: 750px;
+    }
+    .flex_founder_head {
+        top: 150px;
+    }
+}
+@media (max-width:1290px) {
+    .grey_box {
+        height: 100px;
+        background: #F8F9FB;
+        border-radius: 5px;
+    }
+    .flex_founder_head {
+        top: 100px;
+    }
+}
+@media (max-width: 992px) {
+    .founder_head {
+        height: 450px;
+    }
+    .grey_box {
+        height: 80px;
+        background: #F8F9FB;
+        border-radius: 5px;
+    }
+    .flex_founder_head {
+        top: 75px;
+    }
+}
