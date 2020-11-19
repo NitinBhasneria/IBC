@@ -38,7 +38,7 @@ function courousel() {
     return (
       <Container className=' w-75 carousel_head ok'>
         <Row className='w-75'>
-          <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">FOREIGN HEADQUARTERS</Col>
+          <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Our Landmarks</Col>
           <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
         </Row>
           <div className='left_arrow'><img onClick={() => onClick()}  className='pl-xl-5 arrow left pr-3' src={leftArrow} /></div>

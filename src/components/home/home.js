@@ -13,12 +13,12 @@ function Home() {
             <Container fluid="sm" className="contain future_head fz">
                 <Container fluid="sm" className="contain h-75 pr-0 pl-0">
                     <Row>
-                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">OUR ASSETS</Col>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">THE IBC GROUP</Col>
                         <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
                     </Row>
                     <Row>
                         <Col>
-                            <p className="info_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p className="info_content">IBC is the largest 100% family owned and operated real estate firm in India. Established over 55 years ago, we have successfully developed projects across the globe. We are renowned for our specialization in property development for consistently raising benchmarks and pushing the markets beyond its bounds.</p>
                         </Col>
                     </Row>
                     <Row className="counts_golden mt-xl-5 mt-lg-4 mt-md-3 mt-sm-2">
@@ -32,7 +32,7 @@ function Home() {
             <Container fluid="sm" className="contain presence fz mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">
                 <Container fluid="sm" className="contain h-75 pr-0 pl-0">
                     <Row>
-                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">OUR PRESENCE</Col>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Our Presence</Col>
                         <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
                     </Row>
                     <Row>
@@ -44,11 +44,11 @@ function Home() {
             <Container fluid="sm" className="contain founder_head fz pb-xl-5 pb-lg-4 pb-md-3 pb-xl-2">
                 <Container fluid="sm" className="contain h-75 pr-0 pl-0">
                     <Row>
-                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">FOUNDERS</Col>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Fonders</Col>
                         <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
                     </Row>
                     <Row>
-                        <Col className="flex_founder_head h-75"><p className="founder_heading">Lorem ipsum</p><p className="founder_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></Col>
+                        <Col className="flex_founder_head h-75"><p className="founder_heading">FROM FATHER TO FATHER</p><p className="founder_para">Our values of integrity, excellence and passion have been passed on from generation to generation<br></br>Our Core Values include:<br></br>1. Customer satisfaction<br></br>2.Optimum utilization of each sq ft<br></br>3. Focused on vuilding long term relationships<br></br>4. Hire and develop the best<br></br> 5. Earn trust</p></Col>
                         <Col><img className="w-96 h-93" src={Founder} /><p className="mt-lg-3 mt-md-2 mt-sm-1 founder_title">Lorem ipsum dolor sit. </p></Col>
                         <Col><Row><img className="w-100" src={Founder2} /></Row><Row><p className="mt-lg-3 mt-md-2 mt-sm-1 founder_title" >Lorem ipsum dolor sit. </p></Row>
                             <Row><img className="w-100 mt-lg-3 mt-md-2 mt-sm-1" src={Founder2} /></Row><Row><p className="mt-lg-3 mt-md-2 mt-sm-1 founder_title">Lorem ipsum dolor sit. </p></Row>

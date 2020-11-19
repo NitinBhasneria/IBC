@@ -41,7 +41,7 @@ function courousel() {
     return (
       <Container className=' w-75 carousel_head ok'>
         <Row className='w-75'>
-          <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">DIAMOND DISTRICT</Col>
+          <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">BANGALORE</Col>
           <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
         </Row>
           <div className='left_arrow_forone'><img onClick={() => onClick()}  className='pl-xl-5 arrow left pr-3' src={leftArrow} /></div>
@@ -89,8 +89,8 @@ function courousel() {
                       <Row className="h-100">
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
                           <Col sm="6" className="px-xl-5 px-lg-4 px-md-3 px-sm-2 flex-coloumn-vc">
-                              <p className="project_build_head mb-sm-0">LOREM IPSUM</p>
-                              <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                              <p className="project_build_head mb-sm-0">DIAMOND DISTRICT</p>
+                              <p className={build_style}>This mixed use development situated on the Old Airport Road has been a highlight of Bangalore skyline with its all glass facade. A true landmark of Bangalore's CBD.</p>
                               <div className="explore_button">EXPLORE</div>
                           </Col>
                       </Row>

@@ -15,7 +15,7 @@ function Future() {
                     </Row>
                     <Row>
                         <Col>
-                            <p className="info_content">The planned 10 year trajectory will make the IBC group India’s largest single ownership real estate company with zero debt and will be in a position to consistently beat the performance of the Inidan reality sector with added flexibility to do projects most developers....</p>
+                            <p className="info_content">The planned 10-year trajectory for the group reiterates our focus on commercial real estate making IBC India’s largest single ownership debt free real estate company. The group’s strategic position in the market allows us to consistently beat the performance of the Indian Reality Sector with the added flexibility to do projects others deem unreliable.</p>
                         </Col>
                     </Row>
                     <Row className="mt-lg-4 mb-lg-4 mt-md-3 mb-md-3 mt-sm-2 mb-sm-2">
@@ -36,7 +36,7 @@ function Future() {
                     </Row>
                     <Row>
                         <Col>
-                            <p className="info_content">IBC has 11 million square feet under various stages of construction, each of which sets a new benchmark for commercial space. The group consistently pushes the market beyond it’s boundarie, standards of quality and facilities.</p>
+                            <p className="info_content">IBC currently has 11 million sq ft under various stages of construction each of which sets benchmark for Grade A commercial space. The group consistently pushes the market beyond its boundaries to new standers of quality, facilities and technology.</p>
                         </Col>
                     </Row>
                 </Container>
@@ -45,16 +45,14 @@ function Future() {
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
                         <Col sm="6">
-                            <p className="project_build_head mb-sm-0">LOREM IPSUM</p>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p className="project_build_head mb-sm-0">KNOWLEDGE PARK</p>
+                            <p className={build_style}>7,50,000 sq ft</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet</p>
+                            <p className={build_style}>Platim CEED</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum</p>
+                            <p className={build_style}>CBD</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                            <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                            <p className={build_style}>Metro at its door</p>
                             <hr className={hr_style}></hr>
                         </Col>
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
@@ -66,16 +64,14 @@ function Future() {
                     <Row className="h-100">
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
                         <Col sm="6">
-                            <p className="project_build_head mb-sm-0">LOREM IPSUM</p>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p className="project_build_head mb-sm-0">WISDOM WORLD</p>
+                            <p className={build_style}>20 acre</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet</p>
+                            <p className={build_style}>5.5 million sq feet</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum</p>
+                            <p className={build_style}>ORR</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                            <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                            <p className={build_style}>Metro at its door</p>
                             <hr className={hr_style}></hr>
                         </Col>
                     </Row>
@@ -85,16 +81,44 @@ function Future() {
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
                         <Col sm="6">
-                            <p className="project_build_head mb-sm-0">LOREM IPSUM</p>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur</p>
+                            <p className="project_build_head mb-sm-0">PLATINUM CITY</p>
+                            <p className={build_style}>16 acre</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet</p>
+                            <p className={build_style}>4.4 million sq feet</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum</p>
+                            <p className={build_style}>Yashvantpur</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                            <p className={build_style}>Metro at its door</p>
                             <hr className={hr_style}></hr>
-                            <p className={build_style}>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                        </Col>
+                        <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
+                    </Row>
+                </Container>
+            </Container>
+            <Container fluid="sm" className="contain project fz mb-5">
+                <Container fluid="sm" className="contain h-75">
+                    <Row className="h-100">
+                        <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
+                        <Col sm="6">
+                            <p className="project_build_head mb-sm-0">THE CAPITOL</p>
+                            <p className={build_style}>10 acre</p>
+                            <hr className={hr_style}></hr>
+                            <p className={build_style}>2.4 million sq feet</p>
+                            <hr className={hr_style}></hr>
+                            <p className={build_style}>Manesar</p>
+                            <hr className={hr_style}></hr>
+                            <p className={build_style}>Metro at its door</p>
+                            <hr className={hr_style}></hr>
+                        </Col>
+                    </Row>
+                </Container>
+            </Container>
+            <Container fluid="sm" className="contain project fz mb-5">
+                <Container fluid="sm" className="contain h-75">
+                    <Row className="h-100">
+                        <Col sm="6">
+                            <p className="project_build_head mb-sm-0">GRADED</p>
+                            <p className={build_style}>DEVANAHALLI</p>
                             <hr className={hr_style}></hr>
                         </Col>
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
