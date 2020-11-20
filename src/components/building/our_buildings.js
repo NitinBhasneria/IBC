@@ -1,7 +1,8 @@
 import Carousel1 from './carousel_buidling_1.js';
 import Carousel2 from './carousel2';
 import Carousel3 from './carousel3';
-import Carousel4 from './../contact_us/corousel.js'
+import Carousel4 from './carousel4';
+import Carousel5 from './carousel5';
 
 function building() {
 	return(
@@ -10,6 +11,7 @@ function building() {
 			<Carousel2 />
 			<Carousel3 />
 			<Carousel4 />
+			<Carousel5 />
 		</div>
 	)
 }

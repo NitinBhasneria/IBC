@@ -88,8 +88,7 @@ function courousel() {
                   <Container fluid="sm" className="contain h-75">
                       <Row className="h-100">
                         <Col sm="auto" className="h-100 w-100"><img className="height_three w-max-100" src={projectBuild}></img>
-                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">LOREM IPSUM</p>
-                          <p className={build_style}>Lorem ipsum dolor sit amet, consectetur</p>
+                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">Golf View Homes</p>
                         </Col>
                       </Row>
                   </Container>
@@ -98,8 +97,43 @@ function courousel() {
                   <Container fluid="sm" className="contain h-75">
                       <Row className="h-100">
                         <Col sm="auto" className="h-100 w-100"><img className="height_three w-max-100" src={projectBuild}></img>
-                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">LOREM IPSUM</p>
-                          <p className={build_style}>Lorem ipsum dolor sit amet, consectetur</p>
+                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">Wisdom World</p>
+                        </Col>
+                      </Row>
+                  </Container>
+              </Container>
+              <Container fluid="sm" className="contain project_forthree fz mb-5">
+                  <Container fluid="sm" className="contain h-75">
+                      <Row className="h-100">
+                        <Col sm="auto" className="h-100 w-100"><img className="height_three w-max-100" src={projectBuild}></img>
+                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">Diamond District - Residential</p>
+                        </Col>
+                      </Row>
+                  </Container>
+              </Container>
+              <Container fluid="sm" className="contain project_forthree fz mb-5">
+                  <Container fluid="sm" className="contain h-75">
+                      <Row className="h-100">
+                        <Col sm="auto" className="h-100 w-100"><img className="height_three w-max-100" src={projectBuild}></img>
+                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">Platinum City-Residential</p>
+                        </Col>
+                      </Row>
+                  </Container>
+              </Container>
+              <Container fluid="sm" className="contain project_forthree fz mb-5">
+                  <Container fluid="sm" className="contain h-75">
+                      <Row className="h-100">
+                        <Col sm="auto" className="h-100 w-100"><img className="height_three w-max-100" src={projectBuild}></img>
+                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">Platinum City-Commercial</p>
+                        </Col>
+                      </Row>
+                  </Container>
+              </Container>
+              <Container fluid="sm" className="contain project_forthree fz mb-5">
+                  <Container fluid="sm" className="contain h-75">
+                      <Row className="h-100">
+                        <Col sm="auto" className="h-100 w-100"><img className="height_three w-max-100" src={projectBuild}></img>
+                          <p className="project_build_head_4 mb-sm-0 mt-xl-3 mt-lg-2 mt-md-1 mt-sm-0">Manesar - Gurugram</p>
                         </Col>
                       </Row>
                   </Container>

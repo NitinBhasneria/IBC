@@ -38,7 +38,7 @@ function courousel() {
     return (
       <Container className=' w-75 carousel_head ok'>
         <Row className='w-75'>
-          <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Our Landmarks</Col>
+          <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Our Heritage</Col>
           <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
         </Row>
           <div className='left_arrow'><img onClick={() => onClick()}  className='pl-xl-5 arrow left pr-3' src={leftArrow} /></div>
@@ -84,23 +84,65 @@ function courousel() {
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={USA}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>KNOWLEDGE PARK</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Sherrif Centre</h3>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={UK}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>DIAMOND DISTRICT</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Estate</h3>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={UAE}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>KNOWLEDGE PARK</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Senate</h3>
                     <h3 className='text-center head_project pt-0'>BLOCK G</h3>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={GERMANY}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>WISDOM WORLD</h3>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Golden Towers</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={USA}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Golden Enclave - Residential</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={UK}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>The Presidency</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={UAE}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Rich Homes</h3>
+                    <h3 className='text-center head_project pt-0'>BLOCK G</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={GERMANY}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Summit</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={USA}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Sherrif House</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={UK}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Binny Cresent Apartment</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={UAE}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>169 MG Road</h3>
+                    <h3 className='text-center head_project pt-0'>BLOCK G</h3>
+                </Col>
+                <Col sm="11" className='text-center h-100'>
+                    <Row><img src={GERMANY}
+                            className="image"/></Row>
+                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>Golden Enclave - Commercial</h3>
                 </Col>
             </Carousel>
         </Container>

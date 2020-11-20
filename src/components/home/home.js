@@ -38,13 +38,14 @@ function Home() {
                     <Row>
                         <Col><img className="w-100" src={Presence} /></Col>
                     </Row>
-                    <Row className="my-xl-5 my-lg-4 my-md-3 my-sm-2"><Col className="grey_box"></Col></Row>
+                    <Row className="my-xl-5 my-lg-4 my-md-3 my-sm-2"><Col className="grey_box">
+                        <p className="presence_places">India, Germany, United States of America, United Kingdom, United Arab Emirates, Saudi Arabia, Cyprus, Greece, Uzbekistan, Romania. </p></Col></Row>
                 </Container>
             </Container>
             <Container fluid="sm" className="contain founder_head fz pb-xl-5 pb-lg-4 pb-md-3 pb-xl-2">
                 <Container fluid="sm" className="contain h-75 pr-0 pl-0">
                     <Row>
-                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Fonders</Col>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Founders</Col>
                         <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
                     </Row>
                     <Row>

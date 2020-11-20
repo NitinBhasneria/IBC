@@ -5,12 +5,20 @@
     height: 150px;
     background: #F8F9FB;
     border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .founder_heading {
     font-family: EB Garamond;
     font-weight: normal;
     font-size: 28%;
 }
+.presence_places {
+    font-size: 20%;
+}
+
 .flex_founder_head {
     display: flex;
     flex-direction: column;
