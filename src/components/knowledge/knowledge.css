@@ -20,8 +20,8 @@
 }
 .w-100vw {
     width: 100vw !important;
-    height: max-content !important;
-}
+    min-height: 100%;
+}   
 .info_content_knowledge {
     font-size: 22%;
     font-family: lato;
@@ -58,7 +58,7 @@
     font-size: 40%;
 }
 .react-multi-carousel-dot-list {
-    bottom: 65px;
+    bottom: 0px;
 }
 .image_knowledge {
     width: 100%;

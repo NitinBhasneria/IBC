@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import { Col, Container, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import "./../knowledge/knowledge.css";
-import Park_image from "./../../static/Park.jpg"
+import Park_image from "./../../static/home_carousel.jpg"
 
 const responsive = {
   desktop: {
@@ -31,7 +31,7 @@ function Carousel1() {
             responsive={responsive}
             ssr={true} // means to render carousel on server-side.
             infinite={true}
-            autoPlay={false}
+            autoPlay={true}
             autoPlaySpeed={3000}
             keyBoardControl={true}
             customTransition="transform 500ms ease-in-out"
@@ -42,6 +42,18 @@ function Carousel1() {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
             >
+            <div className="h-100 w-100"><img className="w-100vw" src={Park_image} />
+                <p className="knowledge_park_title">KNOWLEDGE PARK</p>
+            </div>
+            <div className="h-100 w-100"><img className="w-100vw" src={Park_image} />
+                <p className="knowledge_park_title">KNOWLEDGE PARK</p>
+            </div>
+            <div className="h-100 w-100"><img className="w-100vw" src={Park_image} />
+                <p className="knowledge_park_title">KNOWLEDGE PARK</p>
+            </div>
+            <div className="h-100 w-100"><img className="w-100vw" src={Park_image} />
+                <p className="knowledge_park_title">KNOWLEDGE PARK</p>
+            </div>
             <div className="h-100 w-100"><img className="w-100vw" src={Park_image} />
                 <p className="knowledge_park_title">KNOWLEDGE PARK</p>
             </div>

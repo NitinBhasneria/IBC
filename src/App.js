@@ -29,7 +29,7 @@ import "./components/home/home.css";
 function App() {
   return (
     <Router history={history} forceRefresh={false}>
-      	<Navbar_Desktop />
+      	<Navbar_Desktop history={history} />
       	<Switch>
           <Route exact path='/ibc' component={Home} />
           <Route exact path='/ibc/gallary' component={GallaryVideo} />
