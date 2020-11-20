@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ibc/static/css/main.c55dd56f.chunk.css",
+    "main.css": "/ibc/static/css/main.c69e4c10.chunk.css",
     "main.js": "/ibc/static/js/main.dfea52b1.chunk.js",
     "main.js.map": "/ibc/static/js/main.dfea52b1.chunk.js.map",
     "runtime-main.js": "/ibc/static/js/runtime-main.f67d5079.js",
@@ -12,7 +12,7 @@
     "static/js/3.229c9c58.chunk.js.map": "/ibc/static/js/3.229c9c58.chunk.js.map",
     "index.html": "/ibc/index.html",
     "static/css/2.db0770e7.chunk.css.map": "/ibc/static/css/2.db0770e7.chunk.css.map",
-    "static/css/main.c55dd56f.chunk.css.map": "/ibc/static/css/main.c55dd56f.chunk.css.map",
+    "static/css/main.c69e4c10.chunk.css.map": "/ibc/static/css/main.c69e4c10.chunk.css.map",
     "static/js/2.6f72c569.chunk.js.LICENSE.txt": "/ibc/static/js/2.6f72c569.chunk.js.LICENSE.txt",
     "static/media/ContactImage.16fe153d.png": "/ibc/static/media/ContactImage.16fe153d.png",
     "static/media/GERMANY.fb511f20.png": "/ibc/static/media/GERMANY.fb511f20.png",
@@ -41,7 +41,7 @@
     "static/js/runtime-main.f67d5079.js",
     "static/css/2.db0770e7.chunk.css",
     "static/js/2.6f72c569.chunk.js",
-    "static/css/main.c55dd56f.chunk.css",
+    "static/css/main.c69e4c10.chunk.css",
     "static/js/main.dfea52b1.chunk.js"
   ]
 }
