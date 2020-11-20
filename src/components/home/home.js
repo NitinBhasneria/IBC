@@ -32,7 +32,7 @@ function Home() {
             <Container fluid="sm" className="contain presence fz mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">
                 <Container fluid="sm" className="contain h-75 pr-0 pl-0">
                     <Row>
-                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">Our Presence</Col>
+                        <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">OUR PRESENCE</Col>
                         <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
                     </Row>
                     <Row>
