@@ -37,8 +37,10 @@ function Home() {
                     <Row>
                         <Col><img className="w-100" src={Presence} /></Col>
                     </Row>
-                    <Row className="my-xl-5 my-lg-4 my-md-3 my-sm-2"><Col className="grey_box">
-                        <p className="presence_places">India, Germany, United States of America, United Kingdom, United Arab Emirates, Saudi Arabia, Cyprus, Greece, Uzbekistan, Romania. </p></Col></Row>
+                    <Row className="my-xl-5 my-lg-4 my-md-3 my-sm-2">
+                        <Col className="grey_box w-100">
+                            <p className="presence_places">India, Germany, United States of America, United Kingdom, United Arab Emirates, Saudi Arabia, Cyprus, Greece, Uzbekistan, Romania. </p>
+                        </Col></Row>
                 </Container>
             </Container>
             <Container fluid="sm" className="contain founder_head fz pb-xl-4">

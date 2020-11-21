@@ -39,14 +39,17 @@ function courousel() {
     } = rest;
     // onMove means if dragging or swiping in progress.
     return (
+      <div>
       <Container className=' w-75 carousel_head ok'>
         <Row className='w-75'>
           <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">OUR EXPERIENCE</Col>
           <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
         </Row>
-          <div className='left_arrow'><img onClick={() => onClick()}  className='pl-xl-5 arrow left pr-3' src={leftArrow} /></div>
+          
         
       </Container>
+      <div className='left_arrow'><img onClick={() => onClick()}  className='pl-xl-5 arrow left pr-3' src={leftArrow} /></div>
+      </div>
     )
   };
   const CustomLeftArrow = ({ onClick, ...rest }) => {
@@ -82,7 +85,7 @@ function courousel() {
                 // deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
-                className =" pb-xl-5"
+                className =""
                 >
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={Founder}

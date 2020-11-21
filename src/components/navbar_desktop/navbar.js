@@ -27,8 +27,8 @@ render() {
 					<Col sm="auto" className="ml-xl-5 ml-lg-4 ml-md-3 pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/tommorow">BUILDING TOMMOROW’S INDIA TODAY</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/building">OUR BUILDINGS</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/future">THE FUTURE IS NOW</NavLink></Col>
-					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/foundation">THE SHERIFF FOUNDATION</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/experience">EXPERIENCE IBC</NavLink></Col>
+					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/foundation">THE SHERIFF FOUNDATION</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/portfolio">DIVERSED PORTFOLIOS</NavLink></Col>
 					<Col sm="auto" className="ml-navbar pl-0 mr-md-2 mr-sm-1 pr-0 navbar_items"><NavLink className="flex-100" activeClassName="active_navbar_item" exact to="/ibc/contact_us">CONTACT US</NavLink></Col>
 				</Row>

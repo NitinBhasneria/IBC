@@ -54,7 +54,12 @@ button:focus {
 }
 @media (max-width: 1440px) {
     .fz {
-        font-size: 98px;
+        font-size: 95px;
+    }
+}
+@media (max-width: 1340px) {
+    .fz {
+        font-size: 90px;
     }
 }
 @media (max-width: 1290px) {
@@ -120,6 +125,6 @@ button:focus {
 }
 @media (max-width: 768px) {
     .container, .container-lg, .container-md, .container-sm {
-        max-width: 555px !important;
+        max-width: 551px !important;
     }
 }

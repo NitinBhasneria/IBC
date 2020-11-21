@@ -14,7 +14,7 @@ function Tommorow() {
 	return (
 		<div>
 			<div className="fz tommorow">
-				<Container fluid="sm" className="contain h-75 pr-0 pl-0">
+				<Container fluid="sm" className="contain h-75">
 		            <Row>
 		            	<Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">WHO WE ARE</Col>
 		                <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
@@ -51,9 +51,9 @@ function Tommorow() {
                         <Col sm={4} className = "h-100 pr-0" >
                             <img src={Founder}
                                 class="image"/></Col>
-                        <Col sm className="h-100 info pr-0">
-                            <Row className="founder_head_topic pb-xl-3 pb-md-2 pt-xl-5 pt-lg-4 pt-md-3 pl-sm-2 pl-xl-5 pl-lg-4 pl-md-3 pl-sm-2 info">Lorem ipsum</Row>
-                            <Row className="px-xl-5 px-lg-4 px-md-3 px-sm-2 height_grey info">
+                        <Col sm className="h-100 info pr-0 info">
+                            <Row className="founder_head_topic pb-xl-3 pb-md-2 pt-xl-5 pt-lg-4 pt-md-3 pl-sm-2 pl-xl-5 pl-lg-4 pl-md-3 pl-sm-2">Lorem ipsum</Row>
+                            <Row className="px-xl-5 px-lg-4 px-md-3 px-sm-2 height_grey">
                             	<Col className="pl-0"><p className="paras pl-0">{paraFounder1}<br></br><br></br>{paraFounder2}<br></br><br></br>{paraFounder3}<br></br><br></br>{paraFounder4}</p></Col>
                             </Row>
                         </Col>

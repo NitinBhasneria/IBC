@@ -54,16 +54,16 @@
     min-height: 100%;
 }
 .react-multi-carousel-list {
-    height: 750px;
+    height: 650px;
 }
 .left_arrow {
     background: no-repeat;
     border: none;
     position: relative;
-    left: 1092px;
+    left: -2720px;
     max-height: 50px;
     overflow: hidden;
-    top: -49px;
+    top: -288px;
     width: 100px;
 }
 .ok{
@@ -118,7 +118,8 @@
         left: 1055px;
     }
     .left_arrow {
-        left: 940px;
+        top: -287px;
+        left: -2410px;
     }
 }
 @media (max-width: 1450px) {
@@ -126,13 +127,16 @@
         height: 480px;
     }
     .ok2 {
+        overflow: visible;
         left: 910px;
     }
     .left_arrow {
-        left: 795px;
+        top: -223px;
+        overflow: visible;
+        left: -2110px;
     }
     .react-multi-carousel-list {
-        height: 650px;
+        height: 520px;
     }
     .info_content2 {
         font-size: 15%;
@@ -164,9 +168,9 @@
         padding-right: 2.4rem !important;
     }
     .left_arrow {
-        left: 705px;
+        left: -1910px;
         overflow: inherit;
-        top: -44px;
+        top: -212px;
     }
     .react-multi-carousel-list {
         height: 500px;
@@ -178,9 +182,9 @@
 }
 @media (max-width:  1199px){
     .left_arrow {
-        left: 740px;
+        left: -1860px;
         overflow: inherit;
-        top: -36px;
+        top: -213px;
     }
     .react-multi-carousel-list {
         height: 500px;
@@ -195,10 +199,11 @@
         height: 520px;
     }
     .left_arrow {
-        left: 595px;
+        left: -2279px;
         overflow: inherit;
-        top: -1.2px;
+        top: -200px;
     }
+
     .ok2 {
         left: 655px;
         overflow: initial;
@@ -247,9 +252,9 @@
         height: 270px;
     }
     .left_arrow {
-        left: 415px;
+        left: -1685px;
         overflow: inherit;
-        top: 4.8px;
+        top: -124px;
     }
 }
 @media (max-width: 576px) {

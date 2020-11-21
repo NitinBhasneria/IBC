@@ -113,9 +113,11 @@
     }
     .left_arrow_forone  {
         left: 820px;
+        overflow: visible; 
         top: -48px;
     }
     .ok2_forone  {
+        overflow: visible;
         left: 925px;
     }
     .react_multi_carousel_list_forone {
