@@ -55,7 +55,7 @@ export default function Contact() {
             <div className="contact">
                 <Container fluid="sm" className = "contain h-100">
                     <Row className = "h-100 w-100">
-                        <Col sm={4} className = "h-100" >
+                        <Col sm={5} className = "h-100" >
                             <img src={contactI}
                                 class="image"/></Col>
                         <Col sm className="h-100 info pr-0">
@@ -83,7 +83,7 @@ export default function Contact() {
                     </Row>
                 </Container>
             </div>
-            <div className="mid fz pt-xl-5 pt-md-5 pt-sm-4">
+            {/* <div className="mid fz pt-xl-5 pt-md-5 pt-sm-4">
                 <Container fluid="sm" className = "contain h-100">
                     <Row className="pt-xl-5 pt-md-5 pt-sm-3 w-100">
                         <Col xl={8} lg={8} md={7} sm={7} className="pt-xl-5 pt-md-5 pt-sm-4">
@@ -99,7 +99,7 @@ export default function Contact() {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </div> */}
             <Courousel />
         </div>
   );

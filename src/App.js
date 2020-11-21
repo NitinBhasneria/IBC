@@ -37,6 +37,7 @@ function App() {
           <Route exact path='/ibc/KPExperi' component={KPExperience} />
           <Route exact path='/ibc/knowledge' component={Knowledge} />
           <Route exact path='/ibc/foundation' component={Foundation} />
+          <Route exact path='/ibc/portfolio' component={Foundation} />
           <Route exact path='/ibc/experience' component={Experience} />
           <Route exact path='/ibc/tommorow' component={Tommorow} />
           <Route exact path='/ibc/building' component={Buildings} />

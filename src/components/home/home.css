@@ -1,6 +1,12 @@
 .presence {
     height: max-content;
 }
+.homeIBCgroup {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .grey_box {
     height: 150px;
     background: #F8F9FB;

@@ -9,7 +9,7 @@ function Home() {
     return (
         <div>
             <Carousel1 />
-            <Container fluid="sm" className="contain future_head fz">
+            <Container fluid="sm" className="contain homeIBCgroup fz">
                 <Container fluid="sm" className="contain h-75 pr-0 pl-0">
                     <Row>
                         <Col sm="auto" className="h-100  cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">THE IBC GROUP</Col>

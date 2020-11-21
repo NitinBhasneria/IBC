@@ -44,8 +44,9 @@ function Future() {
             <Container fluid="sm" className="contain project fz mb-5">
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
-                        <Col sm="6">
+                        <Col sm="6" className="flex_center_coloumn">
                             <p className="project_build_head mb-sm-0">KNOWLEDGE PARK</p>
+                            <hr className={hr_style}></hr>
                             <p className={build_style}>7,50,000 sq ft</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>Platim CEED</p>
@@ -63,8 +64,9 @@ function Future() {
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
-                        <Col sm="6">
+                        <Col sm="6" className="flex_center_coloumn">
                             <p className="project_build_head mb-sm-0">WISDOM WORLD</p>
+                            <hr className={hr_style}></hr>
                             <p className={build_style}>20 acre</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>5.5 million sq feet</p>
@@ -80,8 +82,9 @@ function Future() {
             <Container fluid="sm" className="contain project fz mb-5">
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
-                        <Col sm="6">
+                        <Col sm="6" className="flex_center_coloumn">
                             <p className="project_build_head mb-sm-0">PLATINUM CITY</p>
+                            <hr className={hr_style}></hr>
                             <p className={build_style}>16 acre</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>4.4 million sq feet</p>
@@ -99,8 +102,9 @@ function Future() {
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
-                        <Col sm="6">
+                        <Col sm="6" className="flex_center_coloumn">
                             <p className="project_build_head mb-sm-0">THE CAPITOL</p>
+                            <hr className={hr_style}></hr>
                             <p className={build_style}>10 acre</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>2.4 million sq feet</p>
@@ -116,8 +120,9 @@ function Future() {
             <Container fluid="sm" className="contain project fz mb-5">
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
-                        <Col sm="6">
+                        <Col sm="6" className="flex_center_coloumn">
                             <p className="project_build_head mb-sm-0">GRADED</p>
+                            <hr className={hr_style}></hr>
                             <p className={build_style}>DEVANAHALLI</p>
                             <hr className={hr_style}></hr>
                         </Col>

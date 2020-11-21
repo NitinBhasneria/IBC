@@ -111,10 +111,10 @@
     .navbar_items {
         font-size: 14%;
     }
-    .left_arrow_forone  {
+    .left_arrow_forone {
         left: 820px;
-        overflow: visible; 
-        top: -48px;
+        overflow: visible;
+        top: -47px;
     }
     .ok2_forone  {
         overflow: visible;
@@ -189,7 +189,7 @@
     .left_arrow_forone {
         left: 760px;
         overflow: inherit;
-        top: -24px;
+        top: -24.5px;
     }
     .ok2_forone {
         left: 825px;
