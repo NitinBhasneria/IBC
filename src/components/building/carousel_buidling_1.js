@@ -66,7 +66,7 @@ function courousel() {
                 {/* <Col className="arrowpad" ><div className='Arrows'><img className='pl-xl-5 arrow left pr-3' src={leftArrow} /><img className='arrow' src={rightArrow} /></div></Col> */}
             </Row>
             
-                <Container fluid="sm" className="contain project_forone fz mb-5">
+                <Container fluid="sm" className="contain project_forone fz">
                   <Container fluid="sm" className="contain h-75">
                       <Row className="h-100">
                           <Col className="col-sm-5 px-xl-5 px-lg-4 px-md-3 px-sm-2 flex-coloumn-vc">
@@ -76,8 +76,8 @@ function courousel() {
                           </Col>
                           <Col >
                             <Carousel indicators={false} controls={true} 
-                                nextIcon={<span aria-hidden="true" className="carousel-control-next-icon" />}
-                                prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon" />}>
+                                nextIcon={<span aria-hidden="true" className="left_arrowss arrows_carousel" ></span>}
+                                prevIcon={<span aria-hidden="true" className="right_arrowss arrows_carousel " />}>
                               <Carousel.Item interval={1000} className="box_sizing">
                                 <img className="carousel_image" src={projectBuild} />
                               </Carousel.Item>

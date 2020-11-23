@@ -16,6 +16,30 @@
     max-width: 100% !important;
     /* margin-left: 4%; */
 }
+.carousel-control-next, .carousel-control-prev{
+    height: 10px;
+    width: 45px;
+    top: -86px;
+    right: -28px;
+}
+.carousel-control-prev {
+    left: 620px;
+}
+.arrows_carousel {
+    /* background-color: black; */
+}
+.left_arrowss {
+    background-image: url("./../../static/rightArrow.png");    
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.right_arrowss {
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-image: url("./../../static/leftArrow.png") !important;
+}
 .left_arrow_forone {
     background: no-repeat;
     border: none;
@@ -91,10 +115,19 @@
         padding-right: 2.6rem !important;
     }
 }*/
+.rraa {
+    position: relative;
+    left: 520px;
+}
 @media (max-width: 1550px) {
     .height_three {
         height: 84%;
     }
+
+.rraa {
+    position: relative;
+    left: 460px;
+}
     .ok2_forone {
         left: 1077px;
     }
@@ -114,11 +147,21 @@
         height: 370px;
         top: 36px;
     }
+    .carousel-control-prev {
+        left: 530px;
+    }
 }
 @media (max-width:1450px) {
     .navbar_items {
         font-size: 14%;
     }
+    .rraa {
+        position: relative;
+        left: 400px;
+    }
+.carousel-control-prev {
+    left: 440px;
+}
     .left_arrow_forone {
         left: 820px;
         overflow: visible;
@@ -149,8 +192,15 @@
     .react_multi_carousel_list_forone {
         height: 460px;
     }
+    .rraa {
+        position: relative;
+        left: 350px;
+    }
     .project_forone {
         height: 300px;
+    }
+    .carousel-control-prev {
+        left: 390px;
     }
     .left_arrow_forone {
         left: 720px;
@@ -211,7 +261,11 @@
     }
     .project_forone {
 	    height: 245px;
-	}
+    }
+    .rraa {
+        position: relative;
+        left: 290px;
+    }
     .left_arrow_forone {
         left: 625px;
         overflow: inherit;
@@ -233,11 +287,27 @@
 	}
 	.project_build_info_4 {
 		font-size: 17%;
-	}
+    }
+    .carousel-control-prev {
+        left: 300px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: -70px;
+    }
 }
 @media (max-width: 768px) {
+    .rraa {
+        position: relative;
+        left: 210px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        top: -65px;
+    }
     .react_multi_carousel_list_forone {
         height: 250px;
+    }
+    .carousel-control-prev {
+        left: 185px;
     }
     .project_forthree {
 	    height: 175px;

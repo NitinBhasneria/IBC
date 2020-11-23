@@ -7,7 +7,7 @@ import GERMANY from './../../static/GERMANY.png';
 
 function courousel() {
     return (
-        <Container fluid="sm" className="contain pt-lg-5 mt-lg-5 pt-md-4 pt-sm-3 mt-sm-4 fz">
+        <Container fluid="sm" className="contain pt-lg-5pt-md-4 pt-sm-3 fz">
             <Row className ='carousel_head'>
                 <Col sm="auto" className="h-100 info_content cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">HERITAGE PROJECTS</Col>
                 <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
