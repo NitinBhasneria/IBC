@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Carousel from "react-multi-carousel";
+import Carousel from "react-bootstrap/Carousel";
 import "react-multi-carousel/lib/styles.css";
 import USA from './../../static/USA.png';
 import UAE from './../../static/UAE.png';
@@ -59,44 +59,39 @@ function courousel() {
   };
     return ( 
         <Container fluid="sm" className="contain pt-xl-5 mt-xl-5 pt-md-4 fz">
-            {/* <Row className ='carousel_head'>
-                <Col sm="auto" className="h-100 info_content cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">FOREIGN HEADQUARTERS</Col>
+            <Row className ='carousel_head'>
+                <Col sm="auto" className="h-100 info_content cl_carousel_topic pb-xl-4 pb-lg-3 pb-md-2 pr-0">BANGALORE</Col>
                 <Col sm="1" className="h-100"><hr className='h-100 border_carousel'></hr></Col>
                 <Col sm="6" className="h-100 mr-5"></Col>
-                <Col className="arrowpad" ><div className='Arrows'><img className='pl-xl-5 arrow left pr-3' src={leftArrow} /><img className='arrow' src={rightArrow} /></div></Col>
-            </Row> */}
-            <Carousel customLeftArrow={<CustomRightArrow />} customRightArrow={<CustomLeftArrow />}
-                swipeable={false}
-                draggable={false}
-                showDots={false}
-                responsive={responsive}
-                ssr={true} // means to render carousel on server-side.
-                infinite={true}
-                autoPlay={false}
-                autoPlaySpeed={3000}
-                keyBoardControl={true}
-                customTransition="transform 500ms ease-in-out"
-                // transitionDuration={2000}
-                containerClass="carousel-container"
-                // removeArrowOnDeviceType={["tablet", "mobile", "desktop", "superLargeDesktop"]}
-                // deviceType={this.props.deviceType}
-                dotListClass="custom-dot-list-style"
-                itemClass="carousel-item-padding-40-px"
-                className =" pb-xl-5 react_multi_carousel_list_forone"
-                >
+                {/* <Col className="arrowpad" ><div className='Arrows'><img className='pl-xl-5 arrow left pr-3' src={leftArrow} /><img className='arrow' src={rightArrow} /></div></Col> */}
+            </Row>
+            
                 <Container fluid="sm" className="contain project_forone fz mb-5">
                   <Container fluid="sm" className="contain h-75">
                       <Row className="h-100">
-                          <Col sm="6" className="px-xl-5 px-lg-4 px-md-3 px-sm-2 flex-coloumn-vc">
-                              <p className="project_build_head mb-sm-0">KNOWLEDGE PARK</p>
+                          <Col className="col-sm-5 px-xl-5 px-lg-4 px-md-3 px-sm-2 flex-coloumn-vc">
+                              <p className="project_build_head mb-sm-0">KNOWLEDGE PARK -BLOCK G</p>
                               <p className={build_style}>The IBC group's current flagship. Spread acress a 14-acre land parcel, this project is situated within Bangalore's CBD</p>
                               <div className="explore_button">EXPLORE</div>
                           </Col>
-                          <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
+                          <Col >
+                            <Carousel indicators={false} controls={true} 
+                                nextIcon={<span aria-hidden="true" className="carousel-control-next-icon" />}
+                                prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon" />}>
+                              <Carousel.Item interval={1000} className="box_sizing">
+                                <img className="carousel_image" src={projectBuild} />
+                              </Carousel.Item>
+                              <Carousel.Item interval={1000} className="box_sizing">
+                                <img className="carousel_image" src={projectBuild} />
+                              </Carousel.Item>
+                              <Carousel.Item interval={1000} className="box_sizing">
+                                <img className="carousel_image" src={projectBuild} />
+                              </Carousel.Item>
+                            </Carousel>
+                          </Col>
                       </Row>
                   </Container>
               </Container>
-            </Carousel>
         </Container>
     )
 }

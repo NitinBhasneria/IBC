@@ -22,7 +22,8 @@
 	width: 20% !important;
 }
 .w-icon {
-	width: 25% !important;
+    margin-left: -18px;
+    width: 35% !important;
 }
 .navbar_items {
 	font-size: 14%;
@@ -52,7 +53,8 @@ a:hover {
 		margin-left: 1rem !important;
 	}
 	.w-icon {
-    	width: 35% !important;
+		width: 35% !important;
+		margin-left: -12px;
 	}
 }
 
@@ -83,7 +85,8 @@ a:hover {
 }
 @media (max-width: 768px) {
 	.w-icon {
-    	width: 45% !important;
+		width: 45% !important;
+		margin-left: -6px;
 	}
 	.ml-navbar {
 		margin-left: 0rem !important;

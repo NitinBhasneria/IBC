@@ -8,7 +8,7 @@ function building() {
 	return(
 		<div className="fz">
 			<Carousel1 />
-			<Carousel2 />
+			{/* <Carousel2 /> */}
 			<Carousel3 />
 			<Carousel4 />
 			<Carousel5 />

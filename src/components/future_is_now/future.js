@@ -45,7 +45,7 @@ function Future() {
                 <Container fluid="sm" className="contain h-75">
                     <Row className="h-100">
                         <Col sm="6" className="flex_center_coloumn">
-                            <p className="project_build_head mb-sm-0">KNOWLEDGE PARK</p>
+                            <p className="project_build_head mb-sm-0">KNOWLEDGE PARK -BLOCK G</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>7,50,000 sq ft</p>
                             <hr className={hr_style}></hr>
@@ -54,7 +54,7 @@ function Future() {
                             <p className={build_style}>CBD</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>Metro at its door</p>
-                            <hr className={hr_style}></hr>
+                            {/* <hr className={hr_style}></hr> */}
                         </Col>
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
                     </Row>
@@ -74,7 +74,7 @@ function Future() {
                             <p className={build_style}>ORR</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>Metro at its door</p>
-                            <hr className={hr_style}></hr>
+                            {/* <hr className={hr_style}></hr> */}
                         </Col>
                     </Row>
                 </Container>
@@ -92,7 +92,7 @@ function Future() {
                             <p className={build_style}>Yashvantpur</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>Metro at its door</p>
-                            <hr className={hr_style}></hr>
+                            {/* <hr className={hr_style}></hr> */}
                         </Col>
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
                     </Row>
@@ -112,7 +112,7 @@ function Future() {
                             <p className={build_style}>Manesar</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>Metro at its door</p>
-                            <hr className={hr_style}></hr>
+                            {/* <hr className={hr_style}></hr> */}
                         </Col>
                     </Row>
                 </Container>
@@ -124,7 +124,7 @@ function Future() {
                             <p className="project_build_head mb-sm-0">GRADED</p>
                             <hr className={hr_style}></hr>
                             <p className={build_style}>DEVANAHALLI</p>
-                            <hr className={hr_style}></hr>
+                            {/* <hr className={hr_style}></hr> */}
                         </Col>
                         <Col sm="6" className="h-100 w-100"><img className="h-100 w-max-100" src={projectBuild}></img></Col>
                     </Row>

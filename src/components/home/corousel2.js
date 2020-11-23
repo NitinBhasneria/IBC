@@ -83,23 +83,23 @@ function courousel() {
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={USA}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>KNOWLEDGE PARK</h3>
+                    <h3 className='text-center head_project pt-md-3 pt-sm-2'>KNOWLEDGE PARK</h3>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={UK}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>DIAMOND DISTRICT</h3>
+                    <h3 className='text-center head_project pt-md-3 pt-sm-2'>DIAMOND DISTRICT</h3>
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={UAE}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>KNOWLEDGE PARK</h3>
-                    <h3 className='text-center head_project pt-0'>BLOCK G</h3>
+                    <h3 className='text-center head_project pt-md-3 pt-sm-2'>KNOWLEDGE PARK-BLOCK G</h3>
+                    {/* <h3 className='text-center head_project pt-0'>-</h3> */}
                 </Col>
                 <Col sm="11" className='text-center h-100'>
                     <Row><img src={GERMANY}
                             className="image"/></Row>
-                    <h3 className='text-center head_project pt-xl-5 pt-md-3 pt-sm-2'>WISDOM WORLD</h3>
+                    <h3 className='text-center head_project pt-md-3 pt-sm-2'>WISDOM<br></br>WORLD</h3>
                 </Col>
             </Carousel>
         </Container>
